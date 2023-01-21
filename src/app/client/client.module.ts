@@ -9,7 +9,6 @@ import { HeaderComponent } from './partials/header/header.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { LoginComponent } from './auth/login/login.component';
 import { SignupComponent } from './auth/signup/signup.component';
-import { DashboardComponent } from './pages/dashboard/dashboard.component';
 
 
 @NgModule({
@@ -17,8 +16,7 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     HeaderComponent,
     FooterComponent,
     LoginComponent,
-    SignupComponent,
-    DashboardComponent
+    SignupComponent
   ],
   imports: [
     CommonModule,
@@ -27,6 +25,8 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
     FormsModule,
     ReactiveFormsModule,
     NgxSpinnerModule
-  ]
+  ],
+  exports: [HeaderComponent],
+  providers: [HeaderComponent]
 })
 export class ClientModule { }
