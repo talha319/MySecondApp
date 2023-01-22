@@ -1,1 +1,73 @@
-<p>header works!</p>
+<!-- <div class="myexch-desktop-header d-flex justify-content-between">
+    <div class="d-flex align-items-center">
+        <img routerLink="/client" alt="" class="myexch-logo img-fluid" src="assets/header/logo.png">
+    </div>
+
+    <div class="myexch-login-buttons d-flex align-items-center" *ngIf="!isLogin">
+        <div class="myexch-serch-header hideInMobile d-flex align-items-center">
+            <input type="text" placeholder="Search.." name="search" class="serch-input">
+            <button type="submit" class="btn serch-button"><i class="fa fa-search"></i></button>
+        </div>
+        <button type="button" routerLink="/client/login" class="btn myexch-login" tabindex="0">log
+            in
+        </button>
+        <button type="button" routerLink="/client/signup" class="btn myexch-signup" tabindex="0">sign
+            up
+        </button>
+    </div>
+    <div class="myexch-login-buttons balance-withdraw d-flex align-items-center" *ngIf="isLogin">
+        <div class="d-flex flex-column ">
+            <button type="button" routerLink="/client/deposit" class="btn myexch-login deposit-btn" tabindex="0">Deposit
+            </button>
+            <a class="myexch-bal-button">
+                BAL : {{userbalance?.bankBalance?userbalance?.bankBalance:'0'}}
+            </a>
+        </div>
+        <div class="d-flex flex-column ">
+            <button type="button" routerLink="/client/withdraw" class="btn myexch-signup withdraw-btn"
+                tabindex="0">withdraw
+            </button>
+            <a class="myexch-bal-button" data-bs-toggle="modal" data-bs-target="#ExpoModal">
+                EXP : {{userbalance?.exposure?userbalance?.exposure:'0'}}
+            </a>
+        </div>
+
+    </div>
+</div> -->
+
+
+<div class="avr-Header d-flex justify-content-between">
+    <div class="logo d-flex align-items-center">
+        <img routerLink="/client" alt="" class="myexch-logo img-fluid" src="assets/header/logo.png">
+    </div>
+
+    <div>
+        <div>
+            <button class="btn btn-success">
+               <span></span>
+               <img routerLink="/client" alt="" class="myexch-logo img-fluid" src="assets/sidenav/home.png">
+               Home
+            </button>
+        </div>
+        <div>
+            <button class="btn btn-success">
+              <img routerLink="/client" alt="" class="myexch-logo img-fluid" src="assets/rightnav/Balance.png"> 
+                Id's
+            </button>
+
+        </div>
+        <div>
+            <button class="btn btn-success"> 
+               <img routerLink="/client" alt="" class="myexch-logo img-fluid" src="assets/sidenav/home.png">
+                TV
+            </button>
+
+        </div>
+    </div>
+
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>

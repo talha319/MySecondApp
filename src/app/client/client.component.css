@@ -1,0 +1,61 @@
+/* Header CSS Start */
+
+.avr-Header {
+    background-color: var(--theme-color);
+
+    height: 55px;
+    left: 0px;
+    top: 0px;
+}
+
+
+.avr-logo {
+    /* width: 50% !important; */
+}
+
+
+.avr-nav-button {
+    width: 95px;
+    height: 36px;
+    left: 241px;
+    top: 10px;
+
+
+    border-radius: 10px;
+}
+
+.nav-active {
+    background: var(--selected-btn-color);
+}
+
+.nav-login-button {
+    margin-right: 8px;
+    box-sizing: border-box;
+    width: 95px;
+    height: 36px;
+    left: 910px;
+    top: 10px;
+    color: var(--white);
+    background: var(--theme-color);
+    border: 1px solid var(--white);
+    border-radius: 10px;
+}
+
+
+.nav-signup-button {
+    margin-right: 8px;
+    width: 95px;
+    height: 36px;
+    left: 1013px;
+    top: 10px;
+
+    /* yellow */
+
+    background: var(--selected-btn-bg);
+    border-radius: 10px;
+}
+
+
+
+
+/* Header CSS End */

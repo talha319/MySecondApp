@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --header-color: linear-gradient(180deg, #360a43, #5c2681 42%, #360a43);
+    --app-bgColor: linear-gradient(180deg, #360a43, #5c2681 42%, #360a43);
+    --event-bgcolor: linear-gradient(180deg, #662d91, #8800f2);
+    --event-bgcolor-SideNav: linear-gradient(0deg, rgba(54,10,67,1) 0%, rgba(92,38,129,1) 35%, rgba(54,10,67,1) 100%);
+    --theme-color-back: #262932;
+    --selected-btn-bg: #FFE500;
+    --selected-btn-color: #A34BFB;
+
+    --theme-color: #1A1C22;
+    --unselected-tabbg: #623a75;
+    --text-color-white: #fff;
+    --white: #fff;
+    --text-dark: #343a40;
+    --lay-color: #f994ba;
+    --back-color: #72bbef;
+    --event-title-bg: #000;
+    --dekstop-header-buttons: linear-gradient(180deg, #fff, #c2bb2f);
+    --login-page-bg: linear-gradient(180deg, #360a43, #300953 42%, #360a43);
+    --sport-section-bg: linear-gradient(-180deg, #2e4b5e, #243a48 82%);
+    --theme-bg: rgba(114, 50, 165, 0.38823529411764707);
+    --market-bg: #5f2686;
+    --deposit-card-bg: #cbbed6;
+    --deposit-card-bg-grad: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(240,239,222,1) 35%, rgba(221,213,81,1) 100%);
+  }
+  
+  body{
+    background-color: var(--theme-color-back);
+  }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {NgModule, Component } from '@angular/core';
 
 @Component({
   selector: 'app-client',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./client.component.css']
 })
 export class ClientComponent {
+  step:any;
 
+
+  cliclTab(item:any){
+     this.step=item;
+  }
 }

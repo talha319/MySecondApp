@@ -26,7 +26,7 @@ import { SignupComponent } from './auth/signup/signup.component';
     ReactiveFormsModule,
     NgxSpinnerModule
   ],
-  exports: [HeaderComponent],
-  providers: [HeaderComponent]
+  exports: [HeaderComponent,FooterComponent],
+  providers: [HeaderComponent,FooterComponent]
 })
 export class ClientModule { }
